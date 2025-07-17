@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import objecthandler.Reusable;
 import pageobject.loginpage;
 import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
