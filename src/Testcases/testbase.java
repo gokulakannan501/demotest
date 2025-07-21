@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class testbase {
 	
-	public static WebDriver driver;
+    public static WebDriver driver;
     public static Properties prop;
     
 static 
