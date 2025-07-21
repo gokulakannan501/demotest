@@ -8,7 +8,7 @@ import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 
 public class NewTest {
-	public WebDriver driver;
+	public WebDriver driver;	
 	public Properties prop;
 	testbase test = new testbase();
 	
