@@ -11,6 +11,7 @@ public class NewTest {
 	public WebDriver driver;
 	public Properties prop;
 	testbase test = new testbase();
+	
   @Test(priority = 0, enabled = false)
   public void login() throws InterruptedException {
 	  
