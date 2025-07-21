@@ -23,7 +23,7 @@ FileInputStream readfile=new FileInputStream(f);
 prop=new Properties();
 prop.load(readfile);
 
-//System.out.println(prop.getProperty("URL"));
+System.out.println(prop.getProperty("URL"));
 
 	}
 	catch(Exception e )
