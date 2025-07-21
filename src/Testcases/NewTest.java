@@ -1,5 +1,4 @@
 package Testcases;
-
 import org.testng.annotations.Test;
 import objecthandler.Reusable;
 import pageobject.loginpage;
