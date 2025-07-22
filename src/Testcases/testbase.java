@@ -21,26 +21,24 @@ FileInputStream readfile=new FileInputStream(f);
 prop=new Properties();
 prop.load(readfile);
 
-System.out.println(prop.getProperty("URL"));
-
+	System.out.println(prop.getProperty("URL"));
 	}
 	catch(Exception e )
 
 	{
-System.out.println(e);
-
+	System.out.println(e);
 	}
 	
 String browserName = "chrome";
 if(browserName.equals("chrome"))
 {
-System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Selenium\\driver\\chrome97\\chromedriver.exe");
-driver = new ChromeDriver();
+	System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Selenium\\driver\\chrome97\\chromedriver.exe");
+	driver = new ChromeDriver();
 }
-else if(browserName.equals("FF"))
+	else if(browserName.equals("FF"))
 {
-System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");
-driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");
+		driver = new FirefoxDriver();
 }
 driver.manage().window().maximize();
 }
